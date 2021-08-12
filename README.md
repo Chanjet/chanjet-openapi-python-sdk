@@ -1,1 +1,1 @@
-# chanjet-openapi-python-sdk-
+# chanjet-openapi-python-sdk
