@@ -6,7 +6,7 @@ with open('README.md', encoding='utf-8') as fh:
 
 setup(
     name="chanjet-openapi-python-sdk",
-    version="1.0.0",
+    version="1.0.1",
     author="zc",
     author_email="zhaochang1@chanjet.com",
     description="畅捷通开放平台python版sdk",

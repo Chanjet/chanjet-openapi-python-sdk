@@ -10,7 +10,7 @@
 ## 安装依赖
 推荐通过pip下载
 ```text
-pip install -i https://pypi.org/simple/ chanjet-openapi-python-sdk
+pip install chanjet-openapi-python-sdk
 ```
 ## 快速使用
 
