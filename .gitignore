@@ -1,0 +1,5 @@
+.idea
+*.pyc
+build
+chanjet_openapi_python_sdk.egg-info
+dist
