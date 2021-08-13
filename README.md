@@ -39,9 +39,12 @@ if __name__ == '__main__':
     ChanjetLogger(logging.INFO)
 
     client = ChanjetClient('https://openapi.chanjet.com')
-    client.app_key = 'A5tyQHP8'
-    client.app_secret = '9C910520463F2A473ABA9CE8507004D8'
-    client.open_token = """eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NfdG9rZW4iOiIwNDcyNDhjYS04MjRmLTRiMDEtODFjYi0zOWE3ZTkxYzdiZmUiLCJzdWIiOiJpc3YiLCJhdWQiOiJpc3YiLCJuYmYiOjE2Mjc5NTkyOTEsImFwcElkIjoiNTgiLCJzY29wZSI6ImF1dGhfYWxsIiwiaXNzIjoiY2hhbmpldCIsImV4cCI6MTYyODQ3NzY5MSwidXNlcklkIjoiNjAwMTIzOTUzNjgiLCJpYXQiOjE2Mjc5NTkyOTEsIm9yZ0lkIjoiOTAwMTY0ODg5NzciLCJvcmdBY2NvdW50IjoidTdycnhpaGM5MHU1In0.ffmyeTcm1VK5B5ZSiefECBoGZ9fV9Hk_lWVMX3ldspk"""
+    # 请填入您从开放平台申请下来的appKey
+    client.app_key = 'A******8'
+    # 请填入您从开放平台申请下来的appSecret
+    client.app_secret = '9****************8'
+    # 请填入您的开放平台openToken
+    client.open_token = """e****************************************************************************k"""
 
     # 查询存货
     res = query_inventory_demo()

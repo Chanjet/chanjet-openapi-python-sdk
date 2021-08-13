@@ -202,9 +202,12 @@ if __name__ == '__main__':
     ChanjetLogger(logging.INFO)
 
     c = ChanjetClient('https://openapi.chanjet.com')
-    c.app_key = 'A5tyQHP8'
-    c.app_secret = '9C910520463F2A473ABA9CE8507004D8'
-    c.open_token = """eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NfdG9rZW4iOiI5ZDkyOWU0ZS00ZGMwLTRiNzYtODdlNy05YTE3MTNmMTgzYmUiLCJzdWIiOiJpc3YiLCJhdWQiOiJpc3YiLCJuYmYiOjE2Mjg0OTE4MzEsImFwcElkIjoiNTgiLCJzY29wZSI6ImF1dGhfYWxsIiwiaXNzIjoiY2hhbmpldCIsImV4cCI6MTYyOTAxMDIzMSwidXNlcklkIjoiNjAwMTMxMDA4NDMiLCJpYXQiOjE2Mjg0OTE4MzEsIm9yZ0lkIjoiOTAwMTY0ODg5NzciLCJvcmdBY2NvdW50IjoidTdycnhpaGM5MHU1In0.F1Bi9Ftc4sy06VgJFwj1oK0IJYK3OnlDwt6QmJP7liU"""
+    # 请填入您从开放平台申请下来的appKey
+    c.app_key = 'A******8'
+    # 请填入您从开放平台申请下来的appSecret
+    c.app_secret = '9****************8'
+    # 请填入您的开放平台openToken
+    c.open_token = """e****************************************************************************k"""
 
     # 刷新开放平台token
     # res = refresh_token_demo(c)
